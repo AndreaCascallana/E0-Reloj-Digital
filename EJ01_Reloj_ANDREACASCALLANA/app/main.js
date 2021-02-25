@@ -248,7 +248,7 @@ const crono = () => {
     
     const parar = () => {
         clearInterval(id);
-        document.querySelector(".start_button").addEventListener("click",cronometrar);
+        document.querySelector(".pause_button").addEventListener("click",cronometrar);
     
     };
     
